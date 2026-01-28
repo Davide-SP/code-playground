@@ -10,3 +10,35 @@ body {
   font-weight: bold;
   color: #251d20;
 }
+
+.copyright,
+.publisher-link {
+  color: #251d20;
+}
+
+.privacy-policy,
+.contact-link {
+  color: #251d20;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-link,
+.contact-link {
+  color: #251d20;
+  text-decoration: none;
+}
+
+.menu-link:hover,
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.publisher-link:hover,
+.privacy-policy:hover {
+  text-decoration: none;
+}
