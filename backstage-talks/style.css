@@ -25,7 +25,7 @@ body {
   justify-self: end;
 }
 
-img {
+.logo img {
   width: 250px;
 }
 
@@ -157,4 +157,8 @@ ul:last-child {
 .stores-text {
   color: #251d20;
   font-size: 15px;
+}
+
+.issue img {
+  width: 420px;
 }
