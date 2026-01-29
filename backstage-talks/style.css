@@ -9,6 +9,9 @@ body {
 }
 
 .grid-wrapper {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
   min-height: 100vh;
   padding: 16px;
   display: grid;
@@ -78,4 +81,51 @@ ul:last-child {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+}
+
+.issue-scroller {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.issue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.issue--8 {
+  background-color: #f6e0a4;
+}
+
+.issue--7 {
+  background-color: #ff608c;
+}
+
+.issue--6 {
+  background-color: #ffffff;
+}
+
+.issue--5 {
+  background-color: #02c1b5;
+}
+
+.issue--4 {
+  background-color: #ff651a;
+}
+
+.issue--3 {
+  background-color: #ffbe00;
+}
+
+.issue--2 {
+  background-color: #1d3fbb;
+}
+
+.issue--1 {
+  background-color: #e30512;
 }
