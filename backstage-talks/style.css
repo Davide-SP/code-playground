@@ -5,10 +5,12 @@
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
+  font-size: 18px;
 }
 
 .grid-wrapper {
   min-height: 100vh;
+  padding: 16px;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
@@ -27,12 +29,13 @@ img {
 .main-text {
   font-weight: bold;
   color: #251d20;
-  max-width: 420px;
+  max-width: 300px;
 }
 
 .copyright,
 .publisher-link {
   color: #251d20;
+  font-size: 12px;
 }
 
 .privacy-policy,
@@ -44,6 +47,14 @@ img {
 .menu {
   list-style: none;
   padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+ul:last-child {
+  margin-bottom: 0;
 }
 
 .menu-link,
@@ -60,4 +71,11 @@ img {
 .publisher-link:hover,
 .privacy-policy:hover {
   text-decoration: none;
+}
+
+.info-corner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
