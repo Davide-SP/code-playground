@@ -135,6 +135,7 @@ ul:last-child {
 .issue-number {
   color: #251d20;
   font-weight: bold;
+  margin: 0 0 24px 0;
 }
 
 .buy-link,
