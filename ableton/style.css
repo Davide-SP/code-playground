@@ -6,3 +6,15 @@ body {
   margin: 0;
   font-family: "Jost", sans-serif;
 }
+
+.footer-social {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
