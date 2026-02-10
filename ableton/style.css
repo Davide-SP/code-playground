@@ -139,7 +139,12 @@ ul {
   height: 100px;
 }
 
-.video-section figcaption {
+figcaption {
   margin-top: 8px;
   font-size: 16px;
+}
+
+.video-section-big {
+  margin: 0 auto 96px auto;
+  width: 85%;
 }
