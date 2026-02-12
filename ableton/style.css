@@ -14,6 +14,12 @@ h2 {
   font-weight: 500;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -55,6 +61,10 @@ nav a {
 
 ul {
   list-style: none;
+}
+
+footer ul {
+  padding-left: 0;
 }
 
 .hero {
@@ -233,5 +243,83 @@ figcaption {
 
 .text-inner a {
   color: #0000ff;
-  font-weight: 600px;
+  font-weight: 600;
+}
+
+main {
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 96px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 85%;
+  margin-bottom: 96px;
+}
+
+.logo-footer {
+  width: 200px;
+  margin-bottom: 64px;
+}
+
+.language-row {
+  display: flex;
+  gap: 4px;
+}
+
+.email {
+  width: 420px;
+}
+
+.language-select {
+  width: 120px;
+}
+
+.country-select {
+  width: 200px;
+}
+
+.main-footer-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px 32px;
+  margin-bottom: 64px;
+}
+
+.secondary-footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary-footer-wrapper-left {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.secondary-footer-wrapper-right {
+  display: flex;
+  font-size: 14px;
+  gap: 16px;
+}
+
+.newsletter-row {
+  display: flex;
+  flex: 1;
+}
+
+.button {
+  background-color: #0000ff;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  margin: 0;
+  border-radius: 0;
+}
+
+.input-field {
+  padding: 8px 16px;
+  background: #eeeeee;
+  border: none;
+  border-radius: 0;
 }

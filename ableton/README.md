@@ -29,6 +29,12 @@ The purpose of this project is to:
 - No JavaScript
 - Non-commercial use
 
+## Implementation Notes
+
+- Layered image sections built using relative and absolute positioning
+- Centered hero logo using transform: translate(-50%, -50%)
+- Footer structured using CSS Grid
+
 ## Disclaimer
 
 This project is a **non-commercial educational exercise**.
