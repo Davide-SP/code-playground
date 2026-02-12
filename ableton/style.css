@@ -148,3 +148,90 @@ figcaption {
   margin: 0 auto 96px auto;
   width: 85%;
 }
+
+.green-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background-color: #b6ffc0;
+}
+
+.image-left-double img {
+  width: 540px;
+}
+
+.image-left-double {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+.image-right-double img {
+  width: 650px;
+}
+
+.variant-1 {
+  height: 1100px;
+}
+
+.purple-panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 100%;
+  background-color: #d5b3ff;
+}
+
+.image-wrapper-purple {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-left-purple img {
+  width: 500px;
+  margin-left: 30%;
+}
+
+.latest-jobs {
+  margin: 0 auto 96px;
+  width: 85%;
+  height: 600px;
+  display: flex;
+}
+
+.latest-jobs-image,
+.text-wrapper {
+  flex: 1;
+}
+
+.latest-jobs-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.text-wrapper {
+  background-color: #b1c5ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-inner {
+  padding: 120px;
+}
+
+.text-inner a {
+  color: #0000ff;
+  font-weight: 600px;
+}
