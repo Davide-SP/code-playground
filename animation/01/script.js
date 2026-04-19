@@ -1,6 +1,5 @@
-gsap.from(".box", { 
+gsap.from(".letter", { 
     y: -500, 
-    duration: 1.2, 
+    duration: 2, 
     ease: "bounce.out",
-    stagger: 0.8
-  })
+    stagger: 0.1})

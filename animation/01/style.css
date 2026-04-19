@@ -1,6 +1,5 @@
-.box {
-    width: 100px;
-    height: 100px;
-    /* margin: auto auto; */
-    background-color: black;
+.letter {
+    
+    font-size: 80px;
+    display: inline-block;
 }
